@@ -54,6 +54,52 @@ Create a New Heroku App
 
 heroku create Image- Aug
 
+Log in to Heroku
+Log in to your Heroku account using the Heroku CLI:
+
+
+heroku login
+Deploy to Heroku
+
+
+Push your code to Heroku:
+
+
+git push heroku master
+Open the App on Heroku
+
+heroku open
+Folder Structure
+arduino
+Copy code
+image-augmentation-app/
+│
+├── app.py
+├── Procfile
+├── requirements.txt
+├── runtime.txt
+├── static/
+│   ├── index.html
+├── templates/
+│   ├── index.html
+├── uploads/
+│   ├── (uploaded images)
+└── README.md
+License
+This project is licensed under the MIT License.
+
+Contributing
+Fork it
+Create your feature branch (git checkout -b feature/fooBar)
+Commit your changes (git commit -am 'Add some fooBar')
+Push to the branch (git push origin feature/fooBar)
+Create a new Pull Request
+Acknowledgements
+OpenCV
+Flask
+Heroku
+
+
 
 
 Replace placeholders like `jogender96` and `image Aug` with your actual GitHub username and Heroku app name. Additionally, modify the contact information and any other project-specific details as needed.
